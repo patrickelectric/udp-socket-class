@@ -1,5 +1,4 @@
 
-exemplo pegado http://www.linuxhowtos.org/C_C++/socket.htm
-modo de usar
-1- iniciar ./server 123456
-2- iniciar ./client localhost 123456 doidjeira
+How to use
+1- ./server 123456
+2- ./client localhost 123456 
