@@ -24,7 +24,10 @@ CC      = 	g++
 #for ddd
 #CFLAGS  += -ggdb -g -O0
 
-all: client server
+all: bin_folder client server
+
+bin_folder:
+	mkdir -p bin
 
 client: $(C_SRC_1)
 	$(CC) $^ -I$(C_LIB) -I$(C_LIB) -o $(OUTDIR)/client
